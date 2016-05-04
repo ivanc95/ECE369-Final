@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\javila1\Desktop\SADPipeline\impact.xsl
+OUTFILE=C:\Users\javila1\Desktop\SADPipeline\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=C:\Users\javila1\Desktop\SADPipeline
+LICENSE=iMPACT
+USER_INFO=iMPACT

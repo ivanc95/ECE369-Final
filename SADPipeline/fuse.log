@@ -1,0 +1,83 @@
+Running: C:\Xilinx\13.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/javila1/Desktop/SADPipeline/Datapath_TB_isim_beh.exe -prj C:/Users/javila1/Desktop/SADPipeline/Datapath_TB_beh.prj work.Datapath_TB work.glbl 
+ISim O.61xd (signature 0x1cce1bb2)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/zeroextend.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/tRegisterCache.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/StorePartial.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/SL2Bits26to28.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/SL2.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/SignExtension.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/REG_FILE.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/ProgramCounter.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/PCAdder.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/Mux5Bits2to1.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/Mux32Bit_3to1.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/Mux32Bit2To1.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/Mux1Bit5To1.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/LoadPartial.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/InstructionMemory.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/HILOReg.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/decodeLogic.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/DataMemory.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/Control.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/ALU_Add.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/ALUControl.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/ALU32Bit.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/MWU.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/MEM_WB.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/IF_ID.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/IFU.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/ID_EX.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/hazard.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/forward.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/FDU.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/EX_MEM.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/EMU.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/Datapath.v\" into library work
+Analyzing Verilog file \"C:/Users/javila1/Desktop/SADPipeline/../../Downloads/Datapath_TB.v\" into library work
+Analyzing Verilog file \"C:/Xilinx/13.2/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module PCAdder
+Compiling module ProgramCounter
+Compiling module InstructionMemory
+Compiling module IFU
+Compiling module forward
+Compiling module hazard
+Compiling module IF_ID
+Compiling module Control
+Compiling module ALUControl
+Compiling module Mux5Bits2to1
+Compiling module REG_FILE
+Compiling module SignExtension
+Compiling module zeroextend
+Compiling module Mux32Bit2To1
+Compiling module tRegisterCache
+Compiling module decodeLogic
+Compiling module FDU
+Compiling module ID_EX
+Compiling module Mux1Bit5To1
+Compiling module ALU_Add
+Compiling module SL2Bits26to28
+Compiling module HILOReg
+Compiling module Mux32Bit_3to1
+Compiling module ALU32Bit
+Compiling module SL2
+Compiling module EMU
+Compiling module EX_MEM
+Compiling module DataMemory
+Compiling module StorePartial
+Compiling module LoadPartial
+Compiling module MWU
+Compiling module MEM_WB
+Compiling module Datapath
+Compiling module Datapath_TB
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 35 Verilog Units
+Built simulation executable C:/Users/javila1/Desktop/SADPipeline/Datapath_TB_isim_beh.exe
+Fuse Memory Usage: 18212 KB
+Fuse CPU Usage: 405 ms

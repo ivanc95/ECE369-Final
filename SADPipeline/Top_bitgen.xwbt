@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\javila1\Desktop\SADPipeline\Top.ncd
+OUTFILE=C:\Users\javila1\Desktop\SADPipeline\Top.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\javila1\Desktop\SADPipeline
+LICENSE=ISE
+USER_INFO=174115765_174115766_174417222_460

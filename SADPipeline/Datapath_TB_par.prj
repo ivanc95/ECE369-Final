@@ -1,0 +1,2 @@
+verilog work "netgen/par/Datapath_timesim.v"
+verilog work "../../Downloads/Datapath_TB.v"

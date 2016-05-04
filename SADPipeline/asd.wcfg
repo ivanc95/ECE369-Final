@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/javila1/Desktop/SADPipeline/Datapath_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Datapath_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/Datapath_TB/Reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_TB/Clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_TB/u0/BLUE/registers/RegisterFile[2]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[2,31:0]</obj_property>
+      <obj_property name="ObjectShortName">RegisterFile[2,31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_TB/u0/BLUE/registers/RegisterFile[3]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[3,31:0]</obj_property>
+      <obj_property name="ObjectShortName">RegisterFile[3,31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus52" type="vbus" db_ref_id="1">
+      <obj_property name="label">New Virtual Bus</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[31]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">Address[31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[30]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">Address[30]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[29]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">Address[29]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[28]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">Address[28]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[27]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">Address[27]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[26]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">Address[26]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[25]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">Address[25]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[24]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">Address[24]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[23]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">Address[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[22]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">Address[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[21]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">Address[21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[20]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">Address[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[19]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">Address[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[18]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">Address[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[17]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">Address[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[16]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">Address[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[15]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">Address[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[14]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">Address[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[13]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">Address[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[12]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">Address[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[11]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">Address[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[10]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">Address[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[9]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">Address[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[8]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">Address[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[7]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">Address[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[6]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">Address[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[5]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">Address[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[4]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">Address[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[3]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">Address[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/RED/InstrMem/Address[2]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">Address[2]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Datapath_TB/u0/BLUE/registers/RegisterFile[16]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[16,31:0]</obj_property>
+      <obj_property name="ObjectShortName">RegisterFile[16,31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="label">s0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_TB/u0/BLUE/registers/RegisterFile[17]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[17,31:0]</obj_property>
+      <obj_property name="ObjectShortName">RegisterFile[17,31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="label">s1</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_TB/u0/BLUE/registers/RegisterFile[22]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[22,31:0]</obj_property>
+      <obj_property name="ObjectShortName">RegisterFile[22,31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="label">s6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_TB/u0/BLUE/registers/RegisterFile[23]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[23,31:0]</obj_property>
+      <obj_property name="ObjectShortName">RegisterFile[23,31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="label">s7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_TB/u0/BLUE/registers/RegisterFile[12]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[12,31:0]</obj_property>
+      <obj_property name="ObjectShortName">RegisterFile[12,31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="label">t4</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus363" type="vbus" db_ref_id="1">
+      <obj_property name="label">t4in</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[127]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[127]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[127]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[126]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[126]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[126]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[125]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[125]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[125]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[124]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[124]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[124]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[123]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[123]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[123]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[122]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[122]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[122]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[121]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[121]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[121]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[120]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[120]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[120]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[119]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[119]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[119]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[118]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[118]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[118]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[117]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[117]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[117]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[116]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[116]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[116]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[115]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[115]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[115]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[114]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[114]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[114]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[113]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[113]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[113]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[112]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[112]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[112]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[111]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[111]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[111]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[110]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[110]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[110]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[109]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[109]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[109]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[108]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[108]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[108]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[107]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[107]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[107]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[106]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[106]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[106]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[105]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[105]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[105]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[104]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[104]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[104]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[103]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[103]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[103]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[102]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[102]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[102]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[101]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[101]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[101]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[100]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[100]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[100]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[99]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[99]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[99]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[98]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[98]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[98]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[97]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[97]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[97]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn[96]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[96]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersIn[96]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus652" type="vbus" db_ref_id="1">
+      <obj_property name="label">t4out</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[127]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[127]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[127]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[126]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[126]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[126]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[125]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[125]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[125]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[124]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[124]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[124]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[123]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[123]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[123]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[122]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[122]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[122]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[121]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[121]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[121]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[120]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[120]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[120]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[119]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[119]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[119]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[118]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[118]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[118]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[117]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[117]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[117]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[116]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[116]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[116]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[115]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[115]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[115]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[114]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[114]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[114]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[113]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[113]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[113]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[112]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[112]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[112]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[111]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[111]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[111]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[110]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[110]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[110]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[109]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[109]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[109]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[108]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[108]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[108]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[107]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[107]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[107]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[106]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[106]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[106]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[105]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[105]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[105]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[104]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[104]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[104]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[103]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[103]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[103]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[102]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[102]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[102]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[101]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[101]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[101]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[100]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[100]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[100]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[99]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[99]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[99]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[98]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[98]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[98]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[97]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[97]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[97]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut[96]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[96]</obj_property>
+         <obj_property name="ObjectShortName">tRegistersOut[96]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tRegistersWrite</obj_property>
+      <obj_property name="ObjectShortName">tRegistersWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/Clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_TB/u0/BLUE/registers/TRCWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TRCWrite</obj_property>
+      <obj_property name="ObjectShortName">TRCWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tRegistersIn[255:0]</obj_property>
+      <obj_property name="ObjectShortName">tRegistersIn[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_TB/u0/BLUE/TRC/tRegistersOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tRegistersOut[255:0]</obj_property>
+      <obj_property name="ObjectShortName">tRegistersOut[255:0]</obj_property>
+   </wvobject>
+</wave_config>
